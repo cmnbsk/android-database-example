@@ -4,9 +4,6 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-/**
- * Created by Tobiasz on 2017-03-28.
- */
 
 public class PhonesDbHelper extends SQLiteOpenHelper {
 
@@ -24,7 +21,7 @@ public class PhonesDbHelper extends SQLiteOpenHelper {
             COLUMN_MODEL + " text not null," +
             COLUMN_ANDROID + " text," +
             COLUMN_WWW + " text);";
-    public static final String DELETE_TABLE = "DROP TABLE IF EXISTS " + TABLE_NAME; //TODO to private
+    private static final String DELETE_TABLE = "DROP TABLE IF EXISTS " + TABLE_NAME;
 
 
     public PhonesDbHelper(Context context) {

@@ -1,15 +1,36 @@
 <resources>
-    <string name="app_name">Aplikacja2TK</string>
-    <string name="action_settings">Settings</string>
+    <string name="app_name">Lista telefonów</string>
+    <string name="action_settings">Ustawienia</string>
     <string name="action_add">Dodaj</string>
-    <string name="title_activity_smartphones_list">SmartphonesList</string>
-    <string name="empty_phones_lists">Brak telefonów w bazie</string>
-    <string name="title_activity_edit_phone">EditPhoneActivity</string>
-    <string name="fill_box_toast">Wypełnij wszystkie pola</string>
+    <string name="empty_phones_list">Brak telefonów w bazie</string>
+    <string name="title_activity_edit_phone">Edycja telefonu</string>
+    <string name="validate_toast">Sprawdź poprawność danych</string>
     <string name="edit_brand_label">Producent: </string>
     <string name="edit_model_label">Model: </string>
     <string name="edit_android_label">Android: </string>
     <string name="edit_www_label">WWW: </string>
     <string name="cancel_button">Anuluj</string>
     <string name="save_button">Zapisz</string>
+    <string name="action_back">Wróć</string>
+    <string name="www_button">WWW</string>
+    <string name="action_delete_selected">Usuń zaznaczone</string>
+    <string name="action_cancel">Anuluj</string>
+    <string name="selected_items">zaznaczonych elementów</string>
+    <string-array name="android_versions">
+        <item>O 8.0</item>
+        <item>Nougat 7.0 - 7.1</item>
+        <item>Marshmallow 6.0</item>
+        <item>Lollipop 5.0 - 5.1</item>
+        <item>Kit Kat 4.4</item>
+        <item>Jelly Bean 4.1 - 4.3</item>
+        <item>Ice Cream Sandwich 4.0</item>
+        <item>Honeycomb 3.0 - 3.2</item>
+        <item>Gingerbread 2.3</item>
+        <item>Froyo 2.2</item>
+        <item>Eclair 2.0 - 2.1</item>
+        <item>Donut 1.6</item>
+        <item>Cupcake 1.5</item>
+        <item>Banana Bread 1.1</item>
+        <item>Apple Pie 1.0</item>
+    </string-array>
 </resources>

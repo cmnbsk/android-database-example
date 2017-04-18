@@ -10,15 +10,15 @@
     tools:showIn="@layout/activity_main">
 
     <TextView
-        android:id="@android:id/empty"
+        android:id="@+id/emptyList"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/empty_phones_lists"
+        android:text="@string/empty_phones_list"
         android:visibility="gone"/>
 
     <ListView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@android:id/list"/>
+        android:id="@+id/listView"/>
 
 </LinearLayout>

@@ -1,26 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/row_background" >
 
 
     <TextView
         android:id="@+id/brandLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
         android:layout_marginLeft="42dp"
-        android:layout_marginStart="42dp" />
+        android:layout_marginStart="42dp"
+        android:textSize="18sp" />
 
     <TextView
         android:id="@+id/modelLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_toRightOf="@+id/brandLabel"
-        android:layout_toEndOf="@+id/brandLabel"
         android:layout_marginLeft="107dp"
-        android:layout_marginStart="107dp" />
+        android:layout_marginStart="107dp"
+        android:layout_toEndOf="@+id/brandLabel"
+        android:layout_toRightOf="@+id/brandLabel"
+        android:textSize="18sp" />
 </RelativeLayout>
