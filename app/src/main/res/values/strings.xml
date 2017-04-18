@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Aplikacja2TK</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_add">Dodaj</string>
+    <string name="title_activity_smartphones_list">SmartphonesList</string>
+    <string name="empty_phones_lists">Brak telefonów w bazie</string>
+    <string name="title_activity_edit_phone">EditPhoneActivity</string>
+    <string name="fill_box_toast">Wypełnij wszystkie pola</string>
+    <string name="edit_brand_label">Producent: </string>
+    <string name="edit_model_label">Model: </string>
+    <string name="edit_android_label">Android: </string>
+    <string name="edit_www_label">WWW: </string>
+    <string name="cancel_button">Anuluj</string>
+    <string name="save_button">Zapisz</string>
+</resources>
